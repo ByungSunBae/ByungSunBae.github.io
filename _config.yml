@@ -19,6 +19,8 @@ sass:
 
 permalink: /:categories/:year-:month-:day/:title.html
 
+disqus-shortname: ByungSunBae
+
 # Amount of post to show on home page
 paginate: 5
 
