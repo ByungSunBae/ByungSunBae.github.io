@@ -13,7 +13,7 @@ SELECT TABLE_SCHEMA
        ,TABLE_NAME
        ,TABLE_COMMENT
        ,TABLE_ROWS
-FROM   INFORMATION_SCHEMA.TABLES
+FROM   INFORMATION_SCHEMA.TABLES;
 ```
 
  - 만일 특정 테이블 스키마의 테이블 목록을 가져오고 싶다면, WHERE절을 하나 추가하면 된다.
@@ -27,7 +27,8 @@ SELECT TABLE_SCHEMA
        ,TABLE_ROWS
 FROM   INFORMATION_SCHEMA.TABLES
 WHERE  1=1
-AND    TABLE_SCHEMA IN ('DS')
+AND    TABLE_SCHEMA IN ('DS');
 ```
 
+ - 참고로 WHERE절의 `1=1`은 쿼리를 깔끔하게 보이게 하기위한 줄맞춤용 쿼리이다.
  
