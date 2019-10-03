@@ -25,8 +25,8 @@ date-string: SETEMBER 30, 2019
  - 여기서 말하는 seq2seq는 Encoder를 통해 Input Vector를 받아서 Decoder를 통해 Output Vector를 출력하는 모델을 말한다.
  
  - 하지만 RNN의 경우 한계점이 존재했다.
-     + 1) Vanishing gradient 문제
-     + 2) Encoding하는 과정에서 고정된 크기의 벡터로 압축시킬때 발생하는 정보 손실문제
+     + 1) Vanishing gradient 문제
+     + 2) Encoding하는 과정에서 고정된 크기의 벡터로 압축시킬때 발생하는 정보 손실문제
      
  - 특히, 번역 문제에서 길이가 긴 문장을 번역할 경우 성능이 떨어지는 현상으로 이어진다.
  - 그래서 이러한 문제를 해결하고자 Attention 기법이 등장했다.
@@ -40,7 +40,7 @@ date-string: SETEMBER 30, 2019
  - 즉, 아래와 같은 문장이 2개 있다고 해보자.
      + 1) I saw my friend that took a bus.
      + 2) 나는 버스를 탄 내 친구를 봤었다.
-     
+
  - 영어 -> 한글 번역문제라고 했을 때 "친구"라는 단어는 영어문장의 어느 부분에 집중을 해야하는 것일까?
      + "bus" 보단 "friend"에 더 집중을 해야하지 않을까?
 
@@ -78,7 +78,7 @@ date-string: SETEMBER 30, 2019
  - 간단하게 Attention이 output을 반환하는 순서를 봤으니 이번에는 그림을 통해 살펴보도록하자.
  
 <p align="center">
-  <img width="360" height="200" src="https://github.com/ByungSunBae/ByungSunBae.github.io/blob/master/images/2019-10-03/Seq2seq_attention_model.jpg">
+  <img width="360" height="200" src="https://raw.githubusercontent.com/ByungSunBae/ByungSunBae.github.io/master/images/2019-10-03/Seq2seq_attention_model.jpg">
 </p>
 
 <br>
