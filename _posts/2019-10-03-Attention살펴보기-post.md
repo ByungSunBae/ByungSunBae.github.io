@@ -57,22 +57,21 @@ date-string: SETEMBER 30, 2019
 <p align="center">
   <img width="360" height="200" src="https://www.d2l.ai/_images/attention.svg">
 </p>
-    
+
+<br>
+
  - Attention의 구조를 이해하기 위해서는 아래 3가지를 알아야한다.
-     
      + 1) query
-     + 2) key
-     + 3) value
+     + 2) key
+     + 3) value
 
  - 사실 특별한 것이라기보단 Attention 구조를 이루는 구성요소정도로 생각하면 된다.
  
  - Seq2seq + Attention으로 보면 3가지 구성요소는 아래와 같은 의미를 뜻한다.
- 
      + 1) query : Attention layer의 input으로 t-1 시점의 decoder셀의 hidden state
-     + 2) key & value : 모든 시점의 encoder 셀의 hidden state
+     + 2) key & value : 모든 시점의 encoder 셀의 hidden state
 
  - Attention에서 반환하는 output은 다음과 같은 순서에 의해 계산된다.
- 
      + 1) 입력받은 Query에 대해서 모든 key와의 유사도를 각각 구한다.
      + 2) 이 유사도를 기반으로 Softmax함수를 이용하여 각 key에 대응하는 가중치를 구한다.
      + 3) 각 key에 대응하는 value와 가중치를 이용하여 weighted sum을 구한다.
@@ -80,8 +79,10 @@ date-string: SETEMBER 30, 2019
  - 간단하게 Attention이 output을 반환하는 순서를 봤으니 이번에는 그림을 통해 살펴보도록하자.
  
 <p align="center">
-  <img width="360" height="200" src="/home/spark/hard/project/ByungSunBae.github.io/images/2019-10-03/Seq2seq_attention_model.jpg">
+  <img width="360" height="200" src="https://github.com/ByungSunBae/ByungSunBae.github.io/blob/master/images/2019-10-03/Seq2seq_attention_model.jpg">
 </p>
+
+<br>
 
  - 위 그림은 decoder의 세번째 LSTM 셀에서 단어를 예측할 때, Attention을 사용하는 모습을 보여준다.
  
@@ -109,7 +110,6 @@ date-string: SETEMBER 30, 2019
  - 처음에는 Seq2seq 모델의 성능을 보정하는 용도로 Attention이 소개되었지만, 요즘은 Attention 자체만으로 만든 모델이 Seq2seq의 성능을 뛰어넘기도 한다.
  
  - 해당 글로 이해가 안될 수 있으니 아래 참고사이트를 한번 살펴보기 바란다.
- 
      + https://wikidocs.net/22893
      + https://www.d2l.ai/chapter_attention-mechanism/attention.html
      + https://www.d2l.ai/chapter_attention-mechanism/seq2seq-attention.html
