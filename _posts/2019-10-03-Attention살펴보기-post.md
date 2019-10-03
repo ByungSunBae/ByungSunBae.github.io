@@ -58,7 +58,7 @@ date-string: SETEMBER 30, 2019
  - 간단하게 Attention이 output을 반환하는 순서를 봤으니 이번에는 그림을 통해 살펴보도록하자.
  
 <p align="center">
-  <img width="360" height="200" src="../images/2019-10-03/Seq2seq_attention_model.jpg">
+  <img width="360" height="200" src="/home/spark/hard/project/ByungSunBae.github.io/images/2019-10-03/Seq2seq_attention_model.jpg">
 </p>
 
  - 위 그림은 decoder의 세번째 LSTM 셀에서 단어를 예측할 때, Attention을 사용하는 모습을 보여준다.
