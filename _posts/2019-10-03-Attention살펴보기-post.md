@@ -78,7 +78,7 @@ date-string: SETEMBER 30, 2019
  - 간단하게 Attention이 output을 반환하는 순서를 봤으니 이번에는 그림을 통해 살펴보도록하자.
  
 <p align="center">
-  <img width="360" height="200" src="https://raw.githubusercontent.com/ByungSunBae/ByungSunBae.github.io/master/images/2019-10-03/Seq2seq_attention_model.jpg">
+  <img width="560" height="400" src="https://raw.githubusercontent.com/ByungSunBae/ByungSunBae.github.io/master/images/2019-10-03/Seq2seq_attention_model.jpg">
 </p>
 
 <br>
