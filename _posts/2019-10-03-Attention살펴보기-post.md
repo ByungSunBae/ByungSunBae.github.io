@@ -34,20 +34,20 @@ date-string: SETEMBER 30, 2019
 <br>
 
 ### Attention의 아이디어
+
  - 기본적인 아이디어는 "다음 시퀀스를 예측할 때 Input의 어느 정보에 집중하여 더 정확하게 예측할 것인지"이다.
  
  - 즉, 아래와 같은 문장이 2개 있다고 해보자.
- 
-     + (1) I saw my friend that took a bus.
-     + (2) 나는 버스를 탄 내 친구를 봤었다.
+     + (1) I saw my friend that took a bus.
+     + (2) 나는 버스를 탄 내 친구를 봤었다.
      
  - 영어 -> 한글 번역문제라고 했을 때 "친구"라는 단어는 영어문장의 어느 부분에 집중을 해야하는 것일까?
- 
-     + "bus" 보단 "friend"에 더 집중을 해야하지 않을까?
+     + "bus" 보단 "friend"에 더 집중을 해야하지 않을까?
 
 <br>
 
 ### Seq2seq with Attention
+
  - Attention은 처음에 나올 당시 단독적으로 쓰이기 보단 Seq2seq 모델에 같이 사용되었다.
  - 그래서 본 문서에서는 Seq2seq에서 어떻게 Attention이 사용됐는지 같이 살펴본다.
  - 논의를 위해서 Seq2seq모델은 LSTM셀이라 가정하고, 여러가지 Attention 중 __Dot-Product Attention__ 을 중심으로 설명한다.
