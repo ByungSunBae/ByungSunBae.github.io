@@ -51,7 +51,6 @@ date-string: SETEMBER 30, 2019
  - Attention은 처음에 나올 당시 단독적으로 쓰이기 보단 Seq2seq 모델에 같이 사용되었다.
  - 그래서 본 문서에서는 Seq2seq에서 어떻게 Attention이 사용됐는지 같이 살펴본다.
  - 논의를 위해서 Seq2seq모델은 LSTM셀이라 가정하고, 여러가지 Attention 중 __Dot-Product Attention__ 을 중심으로 설명한다.
- 
  - 우선 Attention은 아래와 같은 구조를 지닌다.
 
 <p align="center">
@@ -67,7 +66,7 @@ date-string: SETEMBER 30, 2019
 
  - 사실 특별한 것이라기보단 Attention 구조를 이루는 구성요소정도로 생각하면 된다.
  
- - Seq2seq + Attention으로 보면 3가지 구성요소는 아래와 같은 의미를 뜻한다.
+ - Seq2seq with Attention으로 보면 3가지 구성요소는 아래와 같은 의미를 뜻한다.
      + 1) query : Attention layer의 input으로 t-1 시점의 decoder셀의 hidden state
      + 2) key & value : 모든 시점의 encoder 셀의 hidden state
 
@@ -106,9 +105,7 @@ date-string: SETEMBER 30, 2019
 
 ### 정리
  - 지금까지 Attention에 대해서 아주 간략하고 압축적으로 설명해봤다.
- 
  - 처음에는 Seq2seq 모델의 성능을 보정하는 용도로 Attention이 소개되었지만, 요즘은 Attention 자체만으로 만든 모델이 Seq2seq의 성능을 뛰어넘기도 한다.
- 
  - 해당 글로 이해가 안될 수 있으니 아래 참고사이트를 한번 살펴보기 바란다.
      + https://wikidocs.net/22893
      + https://www.d2l.ai/chapter_attention-mechanism/attention.html
