@@ -12,7 +12,6 @@ date-string: October 7, 2019
  - 해당 사이트에서는 여러가지 알고리즘 및 인터뷰에 나올법한 문제들을 제공해준다.
 
  - 이 중에서 Top 100 Liked Questions 를 하루에 1개씩 풀어보려고한다.
-     + https://leetcode.com/problemset/top-100-liked-questions/
 
 
 ### TwoSum 문제
@@ -93,3 +92,6 @@ class Solution:
  - 해당 코드를 제출하니 다행히 통과가 되었다.
  - 정답을 살펴보니 필자가 생각했던 방식과 동일한 컨셉이 있었고, 또 하나는 hashing을 이용하는 방법이 있다.
  - hashing을 사용하는 방법은 다음에 따로 다뤄보도록하겠다.
+
+### 참고
+ - https://leetcode.com/problemset/top-100-liked-questions/
