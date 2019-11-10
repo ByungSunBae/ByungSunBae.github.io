@@ -7,22 +7,19 @@ date-string: October 7, 2019
 ---
 
 ### Intro
- - 코딩실력을 늘려보고자 1일 1코딩을 해보자는 마음으로 구글링을 하던중 leetcode라는 사이트를 발견했다.
+ - 코딩실력을 늘려보고자는 마음으로 구글링을 하던중 leetcode라는 사이트를 발견했다.
 
  - 해당 사이트에서는 여러가지 알고리즘 및 인터뷰에 나올법한 문제들을 제공해준다.
 
- - 이 중에서 Top 100 Liked Questions 를 하루에 1개씩 풀어보려고한다.
+ - 수준을 고려해 우선 난이도가 쉬움으로 되어있는 문제를 1개씩 풀어보려고한다.
 
 
 ### TwoSum 문제
- - 1번문제로 TwoSum 문제가 있다.
+ - 이번에 풀 문제는 TwoSum 이다.
 
  - 이 문제는 여러개의 정수(int)값을 가지는 리스트와 target이라 하는 값을 input으로 집어넣으면 target을 구하기 위해 필요한 정수값의 index를 출력하도록 해야한다.
  
   - 단, target을 구하기 위해 1개의 정수값을 여러번 사용할 수 없고 정확하게 1개의 솔루션만 가진다는 제약조건이 걸려있다.
- 
-  - 난이도는 easy라고 써있었는데 생각보다 easy하지 않았다.
- 
 
 ### 환경
  - os 및 스펙관련 환경은 제외하고, 사용한 언어는 파이썬3 이다.
@@ -94,4 +91,4 @@ class Solution:
  - hashing을 사용하는 방법은 다음에 따로 다뤄보도록하겠다.
 
 ### 참고
- - https://leetcode.com/problemset/top-100-liked-questions/
+ - https://leetcode.com/problemset/all/?difficulty=Easy
